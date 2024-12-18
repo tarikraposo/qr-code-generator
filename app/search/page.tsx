@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input"
 import logo from '../../assets/logo-qr-generator.svg'
 import { Button } from "@/components/ui/button"
 
-export function Search(){
+export default function Search(){
     const inputRef = useRef<HTMLInputElement>(null);
 
     useEffect(() => {
